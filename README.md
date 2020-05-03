@@ -46,4 +46,4 @@ then add the module to your MagicMirror's configuration. Here is an example:
 
 | Configuration key | Description | Default | Required |
 | --- | --- | --- | --- |
-| aimpUrl | URL of the AIMP Control Plugin RPC service, E.g. `http://10.0.1.50:3333/RPC_JSON"` | `` | Yes |
+| aimpUrl | URL of the AIMP Control Plugin RPC service, E.g. `http://10.0.1.50:3333/RPC_JSON` | | Yes |
