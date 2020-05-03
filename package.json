@@ -1,0 +1,23 @@
+{
+  "name": "MMM-NowPlayingOnSpotify",
+  "version": "0.0.1",
+  "description": "A module for MagicMirror 2 displaying the currently playing song on AIMP.",
+  "main": "MMM-NowPlayingOnSpotify.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesmak/MMM-NowPlayingOnAIMP"
+  },
+  "keywords": [
+    "magic mirror",
+    "module",
+    "aimp"
+  ],
+  "author": "Jesse Mäkinen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesmak/MMM-NowPlayingOnAIMP/issues"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}

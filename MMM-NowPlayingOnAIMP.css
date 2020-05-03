@@ -1,0 +1,74 @@
+.NPOA_label {
+  max-width: 50ch;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.5em;
+  line-height: 1.3em;
+  color: #cfcfcf;
+  float: left;
+  display: inline-block;
+}
+
+.NPOA_label.track_progress {
+  float: right;
+  width: 9em;
+}
+
+
+.NPOA_container {
+	display: inline-block;
+	width: 90%;
+	vertical-align: top;
+}
+
+.NPOA_icon {
+  margin-right: 1em;
+}
+
+.MMM-NowPlayingOnAIMP.module {
+	margin-bottom: 0;
+}
+
+div.NPOA_progress_container {
+  position: absolute;
+  width: 90%;
+}
+
+progress.NPOA_bar_progress {
+  background-color: transparent;
+  border: 1px solid #999;
+  height: 1em;
+  width: 100%;
+  vertical-align: top;
+}
+
+div.NPOA_bar_container {
+	position: absolute;
+	color: black;
+	padding: 0.2em;
+	width: calc(90% - 0.4em);
+}
+
+div.NPOA_bar_container .NPOA_icon {
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
+div.NPOA_bar_container .NPOA_icon:first-child {
+	margin-left: 0;
+}
+
+.NPOA_separator {
+	margin-left: 1em;
+	margin-right: 0.5em;
+}
+
+progress[value].NPOA_bar_progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress[value].NPOA_bar_progress::-webkit-progress-value {
+  background-color: #999;
+}
