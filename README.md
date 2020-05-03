@@ -15,8 +15,8 @@ Clone this module into your MagicMirror's `modules` directory and install the de
 
 ```sh
 cd modules
-git clone https://github.com/jesmak/MMM-MMM-NowPlayingOnAIMP
-cd MMM-MMM-NowPlayingOnAIMP
+git clone https://github.com/jesmak/MMM-NowPlayingOnAIMP
+cd MMM-NowPlayingOnAIMP
 npm install
 ```
 
