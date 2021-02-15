@@ -6,7 +6,7 @@
 
 ### Prerequisites
 
-This module requires that you have [Aimp-control-plugin](http://a0ivanov.github.io/aimp-control-plugin/) installed to your AIMP.
+This module requires that you have [AIMP Remote Control](http://aimpremote.blogspot.com/) installed to your AIMP.
 Also ensure that you don't have a firewall blocking access to the RPC service created by the plugin (port 3333 by default).
 
 ### Setup
